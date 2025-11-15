@@ -1,0 +1,15 @@
+.banner
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 0px;
+  padding: 5px;
+  background-color: #2e3440;
+}
+
+
+.page
+{
+  margin-top: 80px;
+}
