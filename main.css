@@ -2,12 +2,26 @@
 {
   position: fixed;
   top: 0;
-  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 1em 0px 0px 0px;
+  width: 98%;
   border: 0px;
-  padding: 5px;
-  background-color: #2e3440;
+  padding: 0px 10px;
+  background-color: black;
+  border-radius: 10px;
+  transition: border-radius 0.2s, width 0.2s, margin 0.2s;
 }
 
+
+.banner.scrolled
+{
+    top: 0%;
+    width: 100%;
+    border-radius: 0px;
+    transition: border-radius 0.2s, width 0.2s, margin 0.2s;
+    margin: 0px;
+}
 
 .page
 {
