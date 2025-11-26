@@ -15,7 +15,6 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
 
 <div class="banner"> 
     <p>
-    iwilldev
         <button 
             type="button"; 
             onclick='location.href="./index.html"'>
@@ -35,19 +34,10 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
 </div>
 
 <div class="page">
-<h1>This is a test site!</h1>
-<p>My site is using the <a href=https://www.nordtheme.com/>Nord Color Palette</a></p>
-
-
-
-
-<img src="qrcode.png" alt="QR to my Github page"style="width:200px;height:200px;">
-
-
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a></p></br>
+<h1>About Me</h1>
 </div>
 </body>
+
 
 <script>
     document.addEventListener('scroll', () => 
@@ -65,4 +55,5 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
         }
     });
 </script>
+
 </html>
