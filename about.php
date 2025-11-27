@@ -18,7 +18,7 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
     arcfuse
         <button 
             type="button"; 
-            onclick='location.href="."'>
+            onclick='location.href="./"'>
             Home
         </button>
         <button 
@@ -28,7 +28,7 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
         </button>
         <button 
             type="button"; 
-            onclick='location.href="./about.html"'>
+            onclick='location.href="./about"'>
             About
         </button>
     </p>

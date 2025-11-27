@@ -1,3 +1,11 @@
+<?php
+
+ini_set('display_errors', 0); // Enable error display
+ini_set('display_startup_errors', 1); // Enable display of startup errors
+error_reporting(E_ALL); // Report all types of errors
+include "scripts.php";
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +26,7 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
     arcfuse
         <button 
             type="button"; 
-            onclick='location.href="."'>
+            onclick='location.href="/"'>
             Home
         </button>
         <button 
@@ -28,7 +36,7 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
         </button>
         <button 
             type="button"; 
-            onclick='location.href="./about.php"'>
+            onclick='location.href="./about"'>
             About
         </button>
     </p>
@@ -49,7 +57,14 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
 <p>My site is using the <a href=https://www.nordtheme.com/>Nord Color Palette</a></p>
 
 <p>This server is running on 4gb of ram</p>
-<p>Server Uptime: 5 weeks, 2 days</p>
+
+
+<?php
+
+    $uptime = getUptime();
+    echo "<p>Server Uptime: " . $uptime . "</p>";
+?>
+
 <p>For online documentation and support please refer to
 <a href="http://nginx.org/">nginx.org</a></p></br>
 </div>
