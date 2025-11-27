@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>About</title>
+<title>Home</title>
 
 <link rel="stylesheet" href="main.css">
 
@@ -18,7 +18,7 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
     arcfuse
         <button 
             type="button"; 
-            onclick='location.href="./index.html"'>
+            onclick='location.href="."'>
             Home
         </button>
         <button 
@@ -28,26 +28,32 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
         </button>
         <button 
             type="button"; 
-            onclick='location.href="./about.html"'>
+            onclick='location.href="./about.php"'>
             About
         </button>
     </p>
 </div>
 
 <div class="page">
-<h1>About Me</h1>
+<h1>Under Construction...</h1>
+<p>You can contact me via <a href=https://github.com/iwilldev/>Github</a>, <a href=https://www.linkedin.com/in/william-barbee-6613592b4/>Linkedin</a>, or my <a href="mailto:AlexBarbee@go.rmc.edu">Email</a>.</p>
+<p>I have many projects. Many will soon be detailed on this website</p>
 
 
 
-<h2>Who am I you ask?</h2>
-<p>I am a college student with only a small amount of money. I am looking for an internship to get my name out there.
-Hopefully with time and patience, my portfolio site and Gitub will attract employers. You can also find me on LinkedIn.</p>
 
+<img src="qrcode.png" alt="QR to my Github page"style="width:80px;height:80px;">
+</br>
+<img src="pantera.png" alt="One of my favorite cars, the Detomaso Pantera."style="width:460px;height:460px;">
+
+<p>My site is using the <a href=https://www.nordtheme.com/>Nord Color Palette</a></p>
+
+<p>This server is running on 4gb of ram</p>
+<p>Server Uptime: 5 weeks, 2 days</p>
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a></p></br>
 </div>
-
-
 </body>
-
 
 <script>
     document.addEventListener('scroll', () => 
@@ -65,5 +71,4 @@ Hopefully with time and patience, my portfolio site and Gitub will attract emplo
         }
     });
 </script>
-
 </html>
