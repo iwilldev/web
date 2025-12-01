@@ -28,7 +28,7 @@ html
   background-color: #5e81ac;
   box-sizing: border-box;
   border-radius: 10px;
-  transition: border-radius 0.2s, width 0.2s, margin 0.2s;
+  transition: border-radius 0.2s, width 0.2s, margin 0.2s;\
 }
 
 
@@ -45,4 +45,15 @@ html
 {
   font-family: "Inter Tight";
   margin-top: 80px;
+
+}
+
+.miniclock
+{
+  float: right;
+}
+
+h1
+{
+  color:inherit;
 }
