@@ -3,7 +3,7 @@
 <head>
 <title>Projects</title>
 
-<link rel="stylesheet" href="../main.css">
+<link rel="stylesheet" href="../main.css?v=0.1">
 
 <style>
 html { color-scheme: light dark; }
