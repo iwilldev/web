@@ -61,11 +61,13 @@ I was decent at making 2d art but I didn't enjoy it much. It was just a means to
 My second year of high school I discovered Linux.
 </p>
 I managed to get my hands on an old Core2 Duo PC, and I installed Linux Mint.
-The Covid-19 shutdowns happened midway through this year and I was given way too much time to myself
+The Covid-19 shutdowns happened midway through this year and I was given way too much time to myself. 
 Because of this, I decided it would be a great idea to switch my laptop which I used for schoolwork over to a Linux distribution as well.
 I started with Debian on my laptop, but my BIOS wouldn't allow GRUB to rewrite my EFI variables. I had to manually intervene to get it to install.
 The Debian install lasted until I got a kernel update. Upon which the old kernel was deleted, and the new kernel was saved to the wrong folder as I did not change the install configuration.
 And so I was left with a non-booting OS.
+</p>
+<p>
 I put my foot down and installed ArchLinux at 2am in the morning with Systemd-Boot instead of the Grub bootloader.
 I still use the same install on the same exact hard drive to this day.
 </p>
