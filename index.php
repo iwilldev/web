@@ -1,8 +1,4 @@
 <?php
-
-ini_set('display_errors', 0); // Enable error display
-ini_set('display_startup_errors', 1); // Enable display of startup errors
-error_reporting(E_ALL); // Report all types of errors
 include "scripts.php";
 ?>
 
@@ -15,36 +11,18 @@ include "scripts.php";
 
 <style>
 html { color-scheme: light dark; }
-font-family: Tahoma, Verdana, Arial, sans-serif; }
+
 </style>
 </head>
 <body>
 
-
-<div class="banner"> 
-    <p>
-    arcfuse
-        <button 
-            type="button"; 
-            onclick='location.href="/"'>
-            Home
-        </button>
-        <button 
-            type="button"; 
-            onclick='location.href="https://github.com/iwilldev"'>
-            Github
-        </button>
-        <button 
-            type="button"; 
-            onclick='location.href="./about"'>
-            About
-        </button>
-    </p>
-</div>
+<?php
+include "navbar.php";
+?>
 
 <div class="page">
 <h1>Under Construction...</h1>
-<p>You can contact me via <a href=https://github.com/iwilldev/>Github</a>, <a href=https://www.linkedin.com/in/william-barbee-6613592b4/>Linkedin</a>, or my <a href="mailto:AlexBarbee@go.rmc.edu">Email</a>.</p>
+<p>You can contact me via <a href=https://github.com/iwilldev/>Github</a>, <a href=https://www.linkedin.com/in/WilliamBarbee/>Linkedin</a>, or my <a href="mailto:AlexBarbee@go.rmc.edu">Email</a>.</p>
 <p>I have many projects. Many will soon be detailed on this website</p>
 
 
@@ -67,23 +45,7 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
 
 <p>For online documentation and support please refer to
 <a href="http://nginx.org/">nginx.org</a></p></br>
-</div>
-</body>
 
-<script>
-    document.addEventListener('scroll', () => 
-    {
-        const banner = document.getElementsByClassName('banner')[0];
-        console.log(window.scrollY);
 
-    
-        if (window.scrollY > 0)
-        {
-            banner.classList.add('scrolled');
-        } else 
-        {
-            banner.classList.remove('scrolled');
-        }
-    });
-</script>
-</html>
+
+<?php include "ending.php"?>
