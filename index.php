@@ -1,32 +1,28 @@
 <?php
-include "scripts.php";
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+
+require "scripts.php";
+require_once "server/config.php";
+
+$pg_name = "Home";
+require_once $doctype;
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Home</title>
-
-<link rel="stylesheet" href="main.css?v=0.1">
-
-<style>
-html { color-scheme: light dark; }
-
-</style>
 </head>
+
 <body>
 
-<?php
-include "navbar.php";
-?>
+<?php require $navbar; ?>
 
 <div class="page">
-<h1>Under Construction...</h1>
+<h1>Homepage</h1>
 <p>You can contact me via <a href=https://github.com/iwilldev/>Github</a>, <a href=https://www.linkedin.com/in/WilliamBarbee/>Linkedin</a>, or my <a href="mailto:AlexBarbee@go.rmc.edu">Email</a>.</p>
 <p>I have many projects. Many will soon be detailed on this website</p>
 <p> If you are looking for some content, take a look at my <a href="https://arcfuse.cc/about">About</a> page.</p>
 
-
+<?php include $linkedin; ?>
 <img src="qrcode.png" alt="QR to my Github page"style="width:80px;height:80px;">
 </br>
 <!--
@@ -49,4 +45,4 @@ include "navbar.php";
 
 
 
-<?php include "ending.php"?>
+<?php require $ending?>

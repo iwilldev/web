@@ -95,9 +95,21 @@ html
   font-family: "Inter Tight";
   margin-top: 80px;
   color: white;
-  width: 50%;
+  
   margin: 80px auto;
 
+}
+
+@media screen and (width <= 55rem) {
+  .page {
+    width: 85%;
+  }
+}
+
+@media screen and (width > 55rem) {
+  .page {
+    width: 50%;
+  }
 }
 
 .miniclock
