@@ -1,21 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>About</title>
+<?php
+require_once "server/config.php";
 
-<link rel="stylesheet" href="main.css?v=0.1">
+$pg_name = "About";
+require_once $doctype;
+?>
 
-<style>
-html { color-scheme: light dark; }
-</style>
 </head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <body>
 
-
-<?php
-include "navbar.php";
-?>
+<?php require $navbar; ?>
 
 
 <div class="page">
@@ -73,4 +67,4 @@ I put my foot down and installed ArchLinux at 2am in the morning with Systemd-Bo
 I still use the same install on the same exact hard drive to this day.
 </p>
 
-<?php include "ending.php"?>
+<?php require $ending?>
